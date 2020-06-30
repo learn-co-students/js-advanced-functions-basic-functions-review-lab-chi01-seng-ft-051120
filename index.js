@@ -37,7 +37,6 @@ function actionApplyer(startingPoint, arrayOfOperations) {
     let total = startingPoint 
     arrayOfOperations.forEach(operation => {
         total = operation(total)
-        debugger
     }
     )
     return total
